@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body> <!--light blue body bg-->
+
+    <div id="header">
+        <h1>Free codecamp survey form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+
+    <div id="form-div">  
+        <form action="/index.html" method="GET">
+                <label id="label" for="name">Name</label><br>
+                <input type="text" name="name" id="name" required placeholder="Enter your name"><br><br>
+
+                <label for="mail">Email</label><br>
+                <input type="email" name="mail" id="mail" required placeholder="Enter your mail"><br><br>
+
+                <label for="age">Age (optional)</label><br>
+                <input type="number" name="age" id="age" required placeholder="Age"><br><br>
+
+                <label for="role">Which option best describes your current role?</label><br>
+                <select name="select" id="select">
+                    <option value="student">Student</option>
+                    <option value="job">Full time job</option>
+                    <option value="leraner">Full timelearner</option>
+                    <option value="not">Prefer not to say</option>
+                    <option value="others">Others</option>
+                </select><br><br>
+
+                <label for="recommend">Would you recommend freeCodeCamp to a friend?</label><br>
+                <input type="radio" name="Definitely" id="def"> Definitely <br>
+                <input type="radio" name="Maybe" id="Maybe"> Maybe <br>
+                <input type="radio" name="nsure" id="Not-sure">Not  <br><br>
+
+                <label for="feature">What is your favorite feature of freeCodeCamp?</label><br>
+                <select name="select" id="select">
+                    <option value="Challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="O-source">Open source</option>
+                </select><br><br>
+
+                <label for="favorites">Favorites</label> <br>
+                <input type="checkbox" name="front-end" id="checkb"> Front-end Projects <br>
+                <input type="checkbox" name="back-end" id="checkb"> Back-end Projects <br>
+                <input type="checkbox" name="dvisuals" id="checkb"> Data Visualization <br>
+                <input type="checkbox" name="challenges" id="checkb"> Challenges <br>
+                <input type="checkbox" name="osource" id="checkb"> Open Source Community <br>
+                <input type="checkbox" name="help-room" id="checkb"> Gitter help rooms <br>
+                <input type="checkbox" name="videos" id="checkb"> Videos <br>
+                <input type="checkbox" name="meetups" id="checkb"> City meetups <br>
+                <input type="checkbox" name="wiki" id="checkb"> Wiki <br>
+                <input type="checkbox" name="forums" id="checkb"> Forums <br>
+                <input type="checkbox" name="acourses" id="checkb"> Additional courses <br><br>
+
+                <label for="comment"> Any comment or suggestions?</label> <br>
+                <textarea name="Tarea" cols="50" rows="10" id="tarea" style="border-radius: 5px; height: 10rem;"></textarea><br><br>
+
+                <button id=submit>Submit</button>           
+        </form>
+    </div>
+    
+</body>
+</html>

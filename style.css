@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/image/nfl.jpg);
+    background-repeat: no-repeat;
+    background-color: blueviolet;
+    color: white;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#header {
+    margin-inline: auto;
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 40px;
+}
+
+p{
+    font-size: 22px;
+}
+
+#form-div {
+    background-color: rgb(9, 9, 46, .8);
+    padding: 5rem 3%;
+    width: 60%;
+    margin-inline: auto;
+    margin-block: 3rem;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+
+#name, 
+#mail, 
+#age, 
+#select, 
+#tarea {   
+    margin-top: 0.50rem;
+    width: 90%;
+    height: 38px;
+    border-radius: 2px;
+    padding: 1.2rem;
+    border: none;
+}
+
+#submit {
+    background-color: rgb(20, 214, 78);
+    height: 38px;
+    border-radius: 2px;
+    width: 90%;
+    font-weight: 600;
+    font-size: 1rem;
+    border: transparent;
+}
