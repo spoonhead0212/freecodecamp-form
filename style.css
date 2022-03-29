@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/image/nfl.jpg);
+    background-image: url(image/nfl.jpg);
     background-repeat: no-repeat;
     background-color: blueviolet;
     color: white;
@@ -64,4 +64,15 @@ p{
     font-weight: 600;
     font-size: 1rem;
     border: transparent;
+}
+
+@media screen and (max-width: 1000px) {
+    #form-div {
+        width: 90%;
+    }
+
+    #header {
+        width: 80%;
+        
+    }
 }
